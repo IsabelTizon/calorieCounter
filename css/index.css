@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Zen+Kurenaido&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	max-width: 600px;
+}
+main {
+	height: calc(100% -120px);
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+	max-width: 600px;
+	width: 100%;
+	height: 80px;
+	background-color: #11b04b !important;
+}
+.bg-light .container-fluid {
+	background-color: #11b04b !important;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+}
+button.navbar-toggler {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+span.navbar-toggler-icon {
+	width: 50px;
+	height: 40px;
+	padding: 0;
+}
+
+.full-screen-welcome {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url("../images/2.jpeg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: center;
+	padding: 30% 10%;
+}
+.headingWelcome {
+	font-size: calc(2rem + 1.5vw);
+	font-weight: 700;
+}
+.subheadingWelcome {
+	padding-top: 40px;
+	font-size: 1rem;
+	color: rgb(37, 109, 233);
+	font-family: "Zen Kurenaido", sans-serif;
+}
+
+.three-btn-footer {
+	max-width: 600px;
+	width: 100%;
+	height: 60px;
+
+	display: flex;
+	flex-direction: row;
+	background-color: #11b04b;
+}
+.btn {
+	width: 33.3%;
+	border: rgb(206, 206, 209) solid 2px;
+}
+.fas {
+	padding-top: 15px;
+}

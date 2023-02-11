@@ -1,0 +1,46 @@
+/* How to affect */
+
+section#carousel-lifestyle {
+	margin-top: 80px;
+}
+.img-graphic {
+	max-width: 600px;
+	width: 100%;
+	height: 400px;
+}
+
+.header-intro,
+.text-intro,
+.tips-header,
+.intro-tips {
+	margin: 5%;
+}
+
+.video,
+.tips {
+	max-width: 600px;
+	width: 100%;
+	height: 300px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.recipes-link {
+	background-image: url("../images/lifeStyle/recipes.jpg");
+}
+.exercise-link {
+	background-image: url("../images/lifeStyle/exercise.jpg");
+}
+.meditation-link {
+	background-image: url("../images/lifeStyle/meditation.jpg");
+}
+.title-tips {
+	font-weight: 900;
+}
+
+/* Tips- Meditation */
+.main-tips {
+	margin-top: 100px;
+}

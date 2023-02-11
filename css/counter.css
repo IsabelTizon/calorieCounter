@@ -1,0 +1,103 @@
+.counter-img {
+	margin-top: 80px;
+	max-width: 600px;
+	height: 230px;
+	width: 100%;
+}
+/* counter.html */
+/* food Items */
+.container {
+	width: 90%;
+	margin: 40px auto 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.d-flex.justify-content-center {
+	margin-top: 20px;
+}
+.text-black {
+	margin: 0;
+	padding-top: 30px;
+}
+
+.total-cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+
+.card {
+	margin: 0;
+	height: 220px;
+	width: 50%;
+}
+span {
+	display: none;
+}
+.card-img {
+	height: 100px;
+}
+.card-title {
+	margin: 0;
+	font-weight: 700;
+}
+.card-Kcal {
+	font-size: 0.8em;
+	padding-bottom: 5px;
+}
+.btn {
+	width: 100%;
+}
+/* Section nutricionist */
+.img-nutricionist {
+	max-width: 600px;
+	height: 230px;
+	width: 100%;
+}
+.text-nutricionist {
+	margin: 5% 5% 20%;
+	padding-bottom: 20px;
+}
+
+/* YOUR CALORIE COUNTER (yourCalorie.html) */
+.your-calorie {
+	margin: 80px auto 0;
+	height: 200px;
+	width: 90%;
+}
+.your-calorie-header {
+	width: 100%;
+	padding: 50px;
+}
+.your-calorie-p {
+	font-weight: 600;
+	font-size: 18px;
+}
+.your-calorie-container {
+	width: 100%;
+	height: 200px;
+	padding: 50px;
+	background-image: url("../images/1.jpg");
+	opacity: 0.5;
+	margin-top: 0 !important;
+}
+#total-calories {
+	font-weight: 600;
+	font-size: 75px;
+}
+.counter-reset.bg-primary {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	padding: 15px;
+	border-radius: 10px;
+	font-weight: 600;
+}
